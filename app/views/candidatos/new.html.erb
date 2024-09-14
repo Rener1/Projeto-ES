@@ -1,0 +1,11 @@
+<% content_for :title, "New candidato" %>
+
+<h1>New candidato</h1>
+
+<%= render "form", candidato: @candidato %>
+
+<br>
+
+<div>
+  <%= link_to "Back to candidatos", candidatos_path %>
+</div>
